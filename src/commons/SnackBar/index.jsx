@@ -7,12 +7,9 @@ import {
 } from '@mui/material'
 import React, { forwardRef } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { setSnackbar, getCommonsState } from '../../redux/slices/commonsSlice'
 
 /* import internal modules */
-import {
-  setSnackbar,
-  getCommonsState,
-} from '../../../redux/slices/commonsSlice'
 
 const Alert = forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />

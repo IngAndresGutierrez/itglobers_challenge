@@ -2,11 +2,11 @@
 import React from 'react'
 
 /* import internal modules */
-import Loading from '../components/commons/Loading'
+import Loading from '../../../commons/Loading'
 
-/** @description This is a functional component landing
+/** @description This is a functional component landing page
  *  @version 1.0.0
- *  @since 19/07/2022
+ *  @since 20/07/2022
  *  @author Jaime Andrés Gómez Gutiérrez <g.gutierrez.j.andres@gmail.com>
  *
  *  @function
@@ -14,13 +14,13 @@ import Loading from '../components/commons/Loading'
  *  @returns {Component} Returns the landing view
  **/
 
-const Landing = () => {
+const LandingPage = () => {
   return (
     <h3>
-      LandingView
+      LandingPage
       <Loading />
     </h3>
   )
 }
 
-export default Landing
+export default LandingPage

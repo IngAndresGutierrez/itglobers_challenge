@@ -8,9 +8,9 @@ import { PersistGate } from 'redux-persist/integration/react'
 /* import internal modules */
 import theme from '../Theme'
 import Router from '../Router'
-import Loading from '../commons/Loading'
-import { store } from '../../redux/store'
-import SnackBar from '../commons/SnackBar'
+import Loading from '../../Loading'
+import SnackBar from '../../SnackBar'
+import { store } from '../../../redux/store'
 
 /** @description This is a functional component for redux, redux persist configuration and rooter called
  *  @version 1.0.0
